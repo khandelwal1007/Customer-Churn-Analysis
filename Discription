@@ -1,0 +1,43 @@
+# 📊 Teco Customer Churn Analysis
+
+A data-driven project to understand customer churn patterns in the telecom industry and identify key factors affecting customer retention.
+
+## Objective
+
+To analyze customer behavior and determine how factors like **contract type**, **payment method**, and **tenure** impact churn rates, enabling strategic decisions to improve retention.
+
+## 🛠️ Tools & Technologies
+
+- **Language:** Python  
+- **Libraries:** Pandas, Matplotlib, Seaborn  
+- **Platform:** Jupyter Notebook  
+- **Others:** MS Excel (for initial data inspection & summaries)
+
+## Key Insights
+
+- **Contract Type:**  
+  - Month-to-month contracts have a **42% churn rate**, compared to **11% (1-year)** and **3% (2-year)**.  
+  - Long-term contracts help retain customers.
+
+- **Payment Method:**  
+  - **45% churn** seen in electronic check users.  
+  - Other methods like credit cards & bank transfers show only **15–18% churn**.  
+  - Promoting secure payment options can reduce churn.
+
+- **Tenure Impact:**  
+  - Customers in their **first year churn at 50%**.  
+  - After 3 years, churn drops to just **15%**.  
+  - Early engagement is critical.
+
+- **Other Findings:**  
+  - **Senior citizens** churn more (41%) than non-seniors (26%).  
+  - **Fiber optic users** churn more than DSL users.
+
+## Visualizations
+
+- Bar charts, line graphs, and histograms were used to show churn distribution across:
+  - Contract types
+  - Payment methods
+  - Tenure levels
+  - Internet service types  
+  - These visuals clearly highlight the risk areas for churn.
